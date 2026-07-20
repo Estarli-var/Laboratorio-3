@@ -74,7 +74,7 @@ public class Editor {
         this.guardar = guardar;
     }
     
-    public Editor(String copiar, String cortar, String pegar, String fuente, String color, boolean abrir, String guardar, String salir) {
+    public Editor() {
         this.copiar = copiar;
         this.cortar = cortar;
         this.pegar = pegar;

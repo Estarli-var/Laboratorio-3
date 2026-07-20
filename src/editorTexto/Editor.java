@@ -58,6 +58,22 @@ public class Editor {
         this.color =  color;
     }
 
+    public void setCopiar(String copiar) {
+        this.copiar = copiar;
+    }
+
+    public void setPegar(String pegar) {
+        this.pegar = pegar;
+    }
+
+    public void setAbrir(String abrir) {
+        this.abrir = abrir;
+    }
+
+    public void setGuardar(String guardar) {
+        this.guardar = guardar;
+    }
+    
     public Editor(String copiar, String cortar, String pegar, String fuente, String color, String abrir, String guardar, String salir) {
         this.copiar = copiar;
         this.cortar = cortar;

@@ -14,7 +14,7 @@ public class Editor {
   private String pegar;
   private String fuente;
   private String color;
-  private String abrir; 
+  private boolean abrir; 
   private String guardar; 
   private String salir; 
 
@@ -38,7 +38,7 @@ public class Editor {
         return color;
     }
 
-    public String getAbrir() {
+    public boolean getAbrir() {
         return abrir;
     }
 
@@ -66,7 +66,7 @@ public class Editor {
         this.pegar = pegar;
     }
 
-    public void setAbrir(String abrir) {
+    public void setAbrir(boolean abrir) {
         this.abrir = abrir;
     }
 
@@ -74,7 +74,7 @@ public class Editor {
         this.guardar = guardar;
     }
     
-    public Editor(String copiar, String cortar, String pegar, String fuente, String color, String abrir, String guardar, String salir) {
+    public Editor(String copiar, String cortar, String pegar, String fuente, String color, boolean abrir, String guardar, String salir) {
         this.copiar = copiar;
         this.cortar = cortar;
         this.pegar = pegar;

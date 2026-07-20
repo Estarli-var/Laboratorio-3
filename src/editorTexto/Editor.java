@@ -15,8 +15,8 @@ public class Editor {
   private String fuente;
   private String color;
   private boolean abrir; 
-  private String guardar; 
-  private String salir; 
+  private boolean guardar; 
+  private boolean salir; 
 
     public String getCopiar() {
         return copiar;
@@ -42,11 +42,11 @@ public class Editor {
         return abrir;
     }
 
-    public String getGuardar() {
+    public boolean getGuardar() {
         return guardar;
     }
 
-    public String getSalir() {
+    public boolean getSalir() {
         return salir;
     }
 
@@ -70,10 +70,10 @@ public class Editor {
         this.abrir = abrir;
     }
 
-    public void setGuardar(String guardar) {
+    public void setGuardar(boolean guardar) {
         this.guardar = guardar;
     }
-    
+
     public Editor() {
         this.copiar = copiar;
         this.cortar = cortar;
